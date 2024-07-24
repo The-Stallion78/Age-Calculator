@@ -3,13 +3,13 @@ userInput.max = new Date().toISOString().split("T")[0];
 let result = document.getElementById("result");
 
 function calculateAge() {
-    let birthDay = new Date(userInput.value);
+    let birthDay = new Date(userInput.value);   // Date of Birth
 
     let d1 = birthDay.getDate();
     let m1 = birthDay.getMonth() + 1; // since month in JS starts with 0
     let y1 = birthDay.getFullYear();
 
-    let toDay = new Date();
+    let toDay = new Date(); // Present Date
 
     let d2 = toDay.getDate();
     let m2 = toDay.getMonth() + 1;
