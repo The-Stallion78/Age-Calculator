@@ -1,17 +1,19 @@
 /* for mobile screens */
 @media (max-width: 600px) {
     .calculator {
-        margin: 0 10px;
+        
         margin-top: 5%;
+        margin-left: 0%;
     }
 
     .calculator h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .input-box {
-        margin: 20px 0;
-        padding: 20px;
+        /* margin: 10px 0;
+        padding: 10px; */
+        display: flex;
     }
 
     .input-box input {
@@ -33,7 +35,8 @@
 /* for medium screens */
 @media (min-width: 600px) and (max-width: 768px) {
     .calculator {
-        margin: 0 20px; /* Adjust margins for medium screens */
+        margin: 0 20px; 
+        margin-left: 4%;
     }
 
     .calculator h1 {
