@@ -66,10 +66,14 @@
 
 /* for Large screens */
 @media (min-width: 768px) and (max-width: 991px) {
-    /* No additional adjustments needed for this range */
+    .calculator {
+        margin-left: 10%; 
+    }
 }
 
 /* for Extra large screens */
 @media (min-width: 992px) and (max-width: 1200px) {
-    /* No additional adjustments needed for this range */
+    .calculator {
+        margin-left: 10%; 
+    }
 }
